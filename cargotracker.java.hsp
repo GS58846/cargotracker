@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<local-project language="java" version="6.1.20378" xml-version="3" flavor="j2se">
+  <property name="show-as-module" value="false" />
+  <property name="force-classpath" value="false" />
+  <property name="enabled-optional-measures" value="" />
+  <property name="project-type" value="classpath" />
+  <property name="hide-externals" value="true" />
+  <property name="parse-archive-in-archive" value="false" />
+  <property name="include-injected-dependency" value="false" />
+  <property name="relative-to" value="const(THIS_FILE)" />
+  <property name="action-set-mod" value="1" />
+  <property name="detail-mode" value="true" />
+  <property name="hide-deprecated" value="false" />
+  <property name="resolve-name-clashes" value="true" />
+  <property name="project-excluded" />
+  <property name="show-needs-to-compile" value="false" />
+  <classpath>
+    <classpathentry kind="lib" path="target/classes" module="cargotracker" displaymodule="cargotracker" />
+  </classpath>
+  <pom-root-files />
+  <modules-in-scope />
+  <excludes>
+    <exclude expression="*.*&amp;amp;*" active="true" />
+  </excludes>
+  <restructuring>
+    <set version="3" name="Action list 1" hiview="Codemap" active="true" todo="false" list="0">
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.application.internal.DefaultBookingService to 0">
+        <params name="0">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.application.internal.DefaultBookingService" type="class" path="cargotracker.org.eclipse.cargotracker.application.internal.DefaultBookingService">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="application" type="package" />
+            <node name="internal" type="package" />
+            <node name="DefaultBookingService" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.application.internal.DefaultCargoInspectionService to 1">
+        <params name="1">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.application.internal.DefaultCargoInspectionService" type="class" path="cargotracker.org.eclipse.cargotracker.application.internal.DefaultCargoInspectionService">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="application" type="package" />
+            <node name="internal" type="package" />
+            <node name="DefaultCargoInspectionService" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.application.internal.DefaultHandlingEventService to 2">
+        <params name="2">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.application.internal.DefaultHandlingEventService" type="class" path="cargotracker.org.eclipse.cargotracker.application.internal.DefaultHandlingEventService">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="application" type="package" />
+            <node name="internal" type="package" />
+            <node name="DefaultHandlingEventService" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.application.util.ApplicationSettings to 3">
+        <params name="3">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.application.util.ApplicationSettings" type="class" path="cargotracker.org.eclipse.cargotracker.application.util.ApplicationSettings">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="application" type="package" />
+            <node name="util" type="package" />
+            <node name="ApplicationSettings" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.application.util.DateConverter to 4">
+        <params name="4">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.application.util.DateConverter" type="class" path="cargotracker.org.eclipse.cargotracker.application.util.DateConverter">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="application" type="package" />
+            <node name="util" type="package" />
+            <node name="DateConverter" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.application.util.RestConfiguration to 5">
+        <params name="5">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.application.util.RestConfiguration" type="class" path="cargotracker.org.eclipse.cargotracker.application.util.RestConfiguration">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="application" type="package" />
+            <node name="util" type="package" />
+            <node name="RestConfiguration" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.application.util.SampleDataGenerator to 6">
+        <params name="6">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.application.util.SampleDataGenerator" type="class" path="cargotracker.org.eclipse.cargotracker.application.util.SampleDataGenerator">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="application" type="package" />
+            <node name="util" type="package" />
+            <node name="SampleDataGenerator" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.cargo.Cargo to 7">
+        <params name="7">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.cargo.Cargo" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.cargo.Cargo">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="cargo" type="package" />
+            <node name="Cargo" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.cargo.Delivery to 8">
+        <params name="8">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.cargo.Delivery" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.cargo.Delivery">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="cargo" type="package" />
+            <node name="Delivery" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.cargo.HandlingActivity to 9">
+        <params name="9">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.cargo.HandlingActivity" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.cargo.HandlingActivity">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="cargo" type="package" />
+            <node name="HandlingActivity" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.cargo.Itinerary to 10">
+        <params name="10">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.cargo.Itinerary" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.cargo.Itinerary">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="cargo" type="package" />
+            <node name="Itinerary" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.cargo.Leg to 11">
+        <params name="11">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.cargo.Leg" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.cargo.Leg">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="cargo" type="package" />
+            <node name="Leg" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.cargo.RouteSpecification to 12">
+        <params name="12">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.cargo.RouteSpecification" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.cargo.RouteSpecification">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="cargo" type="package" />
+            <node name="RouteSpecification" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.cargo.TrackingId to 13">
+        <params name="13">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.cargo.TrackingId" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.cargo.TrackingId">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="cargo" type="package" />
+            <node name="TrackingId" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.handling.CannotCreateHandlingEventException to 14">
+        <params name="14">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.handling.CannotCreateHandlingEventException" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.handling.CannotCreateHandlingEventException">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="handling" type="package" />
+            <node name="CannotCreateHandlingEventException" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.handling.HandlingEvent to 15">
+        <params name="15">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.handling.HandlingEvent" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.handling.HandlingEvent">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="handling" type="package" />
+            <node name="HandlingEvent" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.handling.HandlingEventFactory to 16">
+        <params name="16">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.handling.HandlingEventFactory" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.handling.HandlingEventFactory">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="handling" type="package" />
+            <node name="HandlingEventFactory" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.handling.HandlingHistory to 17">
+        <params name="17">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.handling.HandlingHistory" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.handling.HandlingHistory">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="handling" type="package" />
+            <node name="HandlingHistory" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.handling.UnknownCargoException to 18">
+        <params name="18">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.handling.UnknownCargoException" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.handling.UnknownCargoException">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="handling" type="package" />
+            <node name="UnknownCargoException" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.handling.UnknownLocationException to 19">
+        <params name="19">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.handling.UnknownLocationException" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.handling.UnknownLocationException">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="handling" type="package" />
+            <node name="UnknownLocationException" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.handling.UnknownVoyageException to 20">
+        <params name="20">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.handling.UnknownVoyageException" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.handling.UnknownVoyageException">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="handling" type="package" />
+            <node name="UnknownVoyageException" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.location.Location to 21">
+        <params name="21">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.location.Location" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.location.Location">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="location" type="package" />
+            <node name="Location" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.location.SampleLocations to 22">
+        <params name="22">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.location.SampleLocations" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.location.SampleLocations">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="location" type="package" />
+            <node name="SampleLocations" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.location.UnLocode to 23">
+        <params name="23">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.location.UnLocode" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.location.UnLocode">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="location" type="package" />
+            <node name="UnLocode" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.voyage.CarrierMovement to 24">
+        <params name="24">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.voyage.CarrierMovement" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.voyage.CarrierMovement">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="voyage" type="package" />
+            <node name="CarrierMovement" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.voyage.SampleVoyages to 25">
+        <params name="25">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.voyage.SampleVoyages" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.voyage.SampleVoyages">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="voyage" type="package" />
+            <node name="SampleVoyages" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.voyage.Schedule to 26">
+        <params name="26">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.voyage.Schedule" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.voyage.Schedule">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="voyage" type="package" />
+            <node name="Schedule" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.voyage.Voyage to 27">
+        <params name="27">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.voyage.Voyage" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.voyage.Voyage">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="voyage" type="package" />
+            <node name="Voyage" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.model.voyage.VoyageNumber to 28">
+        <params name="28">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.model.voyage.VoyageNumber" type="class" path="cargotracker.org.eclipse.cargotracker.domain.model.voyage.VoyageNumber">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="model" type="package" />
+            <node name="voyage" type="package" />
+            <node name="VoyageNumber" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.shared.AbstractSpecification to 29">
+        <params name="29">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.shared.AbstractSpecification" type="class" path="cargotracker.org.eclipse.cargotracker.domain.shared.AbstractSpecification">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="shared" type="package" />
+            <node name="AbstractSpecification" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.shared.AndSpecification to 30">
+        <params name="30">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.shared.AndSpecification" type="class" path="cargotracker.org.eclipse.cargotracker.domain.shared.AndSpecification">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="shared" type="package" />
+            <node name="AndSpecification" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.shared.DomainObjectUtils to 31">
+        <params name="31">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.shared.DomainObjectUtils" type="class" path="cargotracker.org.eclipse.cargotracker.domain.shared.DomainObjectUtils">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="shared" type="package" />
+            <node name="DomainObjectUtils" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.shared.NotSpecification to 32">
+        <params name="32">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.shared.NotSpecification" type="class" path="cargotracker.org.eclipse.cargotracker.domain.shared.NotSpecification">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="shared" type="package" />
+            <node name="NotSpecification" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.domain.shared.OrSpecification to 33">
+        <params name="33">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.domain.shared.OrSpecification" type="class" path="cargotracker.org.eclipse.cargotracker.domain.shared.OrSpecification">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="domain" type="package" />
+            <node name="shared" type="package" />
+            <node name="OrSpecification" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.logging.LoggerProducer to 34">
+        <params name="34">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.logging.LoggerProducer" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.logging.LoggerProducer">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="logging" type="package" />
+            <node name="LoggerProducer" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.CargoHandledConsumer to 35">
+        <params name="35">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.CargoHandledConsumer" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.CargoHandledConsumer">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="messaging" type="package" />
+            <node name="jms" type="package" />
+            <node name="CargoHandledConsumer" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.DeliveredCargoConsumer to 36">
+        <params name="36">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.DeliveredCargoConsumer" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.DeliveredCargoConsumer">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="messaging" type="package" />
+            <node name="jms" type="package" />
+            <node name="DeliveredCargoConsumer" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.HandlingEventRegistrationAttemptConsumer to 37">
+        <params name="37">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.HandlingEventRegistrationAttemptConsumer" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.HandlingEventRegistrationAttemptConsumer">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="messaging" type="package" />
+            <node name="jms" type="package" />
+            <node name="HandlingEventRegistrationAttemptConsumer" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.JmsApplicationEvents to 38">
+        <params name="38">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.JmsApplicationEvents" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.JmsApplicationEvents">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="messaging" type="package" />
+            <node name="jms" type="package" />
+            <node name="JmsApplicationEvents" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.MisdirectedCargoConsumer to 39">
+        <params name="39">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.MisdirectedCargoConsumer" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.MisdirectedCargoConsumer">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="messaging" type="package" />
+            <node name="jms" type="package" />
+            <node name="MisdirectedCargoConsumer" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.RejectedRegistrationAttemptsConsumer to 40">
+        <params name="40">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.RejectedRegistrationAttemptsConsumer" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.messaging.jms.RejectedRegistrationAttemptsConsumer">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="messaging" type="package" />
+            <node name="jms" type="package" />
+            <node name="RejectedRegistrationAttemptsConsumer" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaCargoRepository to 41">
+        <params name="41">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaCargoRepository" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaCargoRepository">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="persistence" type="package" />
+            <node name="jpa" type="package" />
+            <node name="JpaCargoRepository" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaHandlingEventRepository to 42">
+        <params name="42">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaHandlingEventRepository" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaHandlingEventRepository">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="persistence" type="package" />
+            <node name="jpa" type="package" />
+            <node name="JpaHandlingEventRepository" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaLocationRepository to 43">
+        <params name="43">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaLocationRepository" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaLocationRepository">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="persistence" type="package" />
+            <node name="jpa" type="package" />
+            <node name="JpaLocationRepository" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaVoyageRepository to 44">
+        <params name="44">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaVoyageRepository" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.persistence.jpa.JpaVoyageRepository">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="persistence" type="package" />
+            <node name="jpa" type="package" />
+            <node name="JpaVoyageRepository" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.infrastructure.routing.ExternalRoutingService to 45">
+        <params name="45">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.infrastructure.routing.ExternalRoutingService" type="class" path="cargotracker.org.eclipse.cargotracker.infrastructure.routing.ExternalRoutingService">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="infrastructure" type="package" />
+            <node name="routing" type="package" />
+            <node name="ExternalRoutingService" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.Coordinates to 46">
+        <params name="46">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.Coordinates" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.Coordinates">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="Coordinates" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.CoordinatesFactory to 47">
+        <params name="47">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.CoordinatesFactory" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.CoordinatesFactory">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="CoordinatesFactory" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.FacesConfiguration to 48">
+        <params name="48">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.FacesConfiguration" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.FacesConfiguration">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="FacesConfiguration" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.CargoRoute to 49">
+        <params name="49">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.CargoRoute" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.CargoRoute">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="dto" type="package" />
+            <node name="CargoRoute" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.CargoStatus to 50">
+        <params name="50">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.CargoStatus" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.CargoStatus">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="dto" type="package" />
+            <node name="CargoStatus" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.Leg to 51">
+        <params name="51">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.Leg" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.Leg">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="dto" type="package" />
+            <node name="Leg" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.Location to 52">
+        <params name="52">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.Location" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.Location">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="dto" type="package" />
+            <node name="Location" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.RouteCandidate to 53">
+        <params name="53">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.RouteCandidate" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.RouteCandidate">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="dto" type="package" />
+            <node name="RouteCandidate" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.TrackingEvents to 54">
+        <params name="54">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.TrackingEvents" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.dto.TrackingEvents">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="dto" type="package" />
+            <node name="TrackingEvents" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.DefaultBookingServiceFacade to 55">
+        <params name="55">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.DefaultBookingServiceFacade" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.DefaultBookingServiceFacade">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="internal" type="package" />
+            <node name="DefaultBookingServiceFacade" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.CargoRouteDtoAssembler to 56">
+        <params name="56">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.CargoRouteDtoAssembler" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.CargoRouteDtoAssembler">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="internal" type="package" />
+            <node name="assembler" type="package" />
+            <node name="CargoRouteDtoAssembler" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.CargoStatusDtoAssembler to 57">
+        <params name="57">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.CargoStatusDtoAssembler" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.CargoStatusDtoAssembler">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="internal" type="package" />
+            <node name="assembler" type="package" />
+            <node name="CargoStatusDtoAssembler" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.ItineraryCandidateDtoAssembler to 58">
+        <params name="58">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.ItineraryCandidateDtoAssembler" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.ItineraryCandidateDtoAssembler">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="internal" type="package" />
+            <node name="assembler" type="package" />
+            <node name="ItineraryCandidateDtoAssembler" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.LocationDtoAssembler to 59">
+        <params name="59">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.LocationDtoAssembler" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.LocationDtoAssembler">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="internal" type="package" />
+            <node name="assembler" type="package" />
+            <node name="LocationDtoAssembler" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.TrackingEventsDtoAssembler to 60">
+        <params name="60">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.TrackingEventsDtoAssembler" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.facade.internal.assembler.TrackingEventsDtoAssembler">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="facade" type="package" />
+            <node name="internal" type="package" />
+            <node name="assembler" type="package" />
+            <node name="TrackingEventsDtoAssembler" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.sse.LocationViewAdapter to 61">
+        <params name="61">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.sse.LocationViewAdapter" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.sse.LocationViewAdapter">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="sse" type="package" />
+            <node name="LocationViewAdapter" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.sse.RealtimeCargoTrackingService to 62">
+        <params name="62">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.sse.RealtimeCargoTrackingService" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.sse.RealtimeCargoTrackingService">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="sse" type="package" />
+            <node name="RealtimeCargoTrackingService" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.sse.RealtimeCargoTrackingViewAdapter to 63">
+        <params name="63">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.sse.RealtimeCargoTrackingViewAdapter" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.sse.RealtimeCargoTrackingViewAdapter">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="sse" type="package" />
+            <node name="RealtimeCargoTrackingViewAdapter" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.web.Booking to 64">
+        <params name="64">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.Booking" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.Booking">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="web" type="package" />
+            <node name="Booking" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.web.CargoDetails to 65">
+        <params name="65">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.CargoDetails" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.CargoDetails">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="web" type="package" />
+            <node name="CargoDetails" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ChangeArrivalDeadlineDialog to 66">
+        <params name="66">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ChangeArrivalDeadlineDialog" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ChangeArrivalDeadlineDialog">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="web" type="package" />
+            <node name="ChangeArrivalDeadlineDialog" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ChangeDestinationDialog to 67">
+        <params name="67">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ChangeDestinationDialog" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ChangeDestinationDialog">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="web" type="package" />
+            <node name="ChangeDestinationDialog" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ItinerarySelection to 68">
+        <params name="68">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ItinerarySelection" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ItinerarySelection">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="web" type="package" />
+            <node name="ItinerarySelection" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ListCargo to 69">
+        <params name="69">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ListCargo" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.ListCargo">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="web" type="package" />
+            <node name="ListCargo" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.booking.web.Track to 70">
+        <params name="70">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.Track" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.booking.web.Track">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="booking" type="package" />
+            <node name="web" type="package" />
+            <node name="Track" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.handling.HandlingEventRegistrationAttempt to 71">
+        <params name="71">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.handling.HandlingEventRegistrationAttempt" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.handling.HandlingEventRegistrationAttempt">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="handling" type="package" />
+            <node name="HandlingEventRegistrationAttempt" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventFilesCheckpoint to 72">
+        <params name="72">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventFilesCheckpoint" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventFilesCheckpoint">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="handling" type="package" />
+            <node name="file" type="package" />
+            <node name="EventFilesCheckpoint" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventItemReader to 73">
+        <params name="73">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventItemReader" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventItemReader">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="handling" type="package" />
+            <node name="file" type="package" />
+            <node name="EventItemReader" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventItemWriter to 74">
+        <params name="74">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventItemWriter" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventItemWriter">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="handling" type="package" />
+            <node name="file" type="package" />
+            <node name="EventItemWriter" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventLineParseException to 75">
+        <params name="75">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventLineParseException" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.EventLineParseException">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="handling" type="package" />
+            <node name="file" type="package" />
+            <node name="EventLineParseException" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.handling.file.FileProcessorJobListener to 76">
+        <params name="76">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.FileProcessorJobListener" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.FileProcessorJobListener">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="handling" type="package" />
+            <node name="file" type="package" />
+            <node name="FileProcessorJobListener" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.handling.file.LineParseExceptionListener to 77">
+        <params name="77">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.LineParseExceptionListener" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.LineParseExceptionListener">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="handling" type="package" />
+            <node name="file" type="package" />
+            <node name="LineParseExceptionListener" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.handling.file.UploadDirectoryScanner to 78">
+        <params name="78">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.UploadDirectoryScanner" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.handling.file.UploadDirectoryScanner">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="handling" type="package" />
+            <node name="file" type="package" />
+            <node name="UploadDirectoryScanner" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.handling.mobile.EventLogger to 79">
+        <params name="79">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.handling.mobile.EventLogger" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.handling.mobile.EventLogger">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="handling" type="package" />
+            <node name="mobile" type="package" />
+            <node name="EventLogger" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.handling.rest.HandlingReport to 80">
+        <params name="80">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.handling.rest.HandlingReport" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.handling.rest.HandlingReport">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="handling" type="package" />
+            <node name="rest" type="package" />
+            <node name="HandlingReport" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.handling.rest.HandlingReportService to 81">
+        <params name="81">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.handling.rest.HandlingReportService" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.handling.rest.HandlingReportService">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="handling" type="package" />
+            <node name="rest" type="package" />
+            <node name="HandlingReportService" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.tracking.web.CargoTrackingViewAdapter to 82">
+        <params name="82">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.tracking.web.CargoTrackingViewAdapter" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.tracking.web.CargoTrackingViewAdapter">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="tracking" type="package" />
+            <node name="web" type="package" />
+            <node name="CargoTrackingViewAdapter" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+      <action type="rename" active="true" last-applied="true" description="Rename cargotracker.org.eclipse.cargotracker.interfaces.tracking.web.Track to 83">
+        <params name="83">
+          <source-fqn fqn="cargotracker.org.eclipse.cargotracker.interfaces.tracking.web.Track" type="class" path="cargotracker.org.eclipse.cargotracker.interfaces.tracking.web.Track">
+            <node name="cargotracker" type="jar" />
+            <node name="org" type="package" />
+            <node name="eclipse" type="package" />
+            <node name="cargotracker" type="package" />
+            <node name="interfaces" type="package" />
+            <node name="tracking" type="package" />
+            <node name="web" type="package" />
+            <node name="Track" type="class" />
+          </source-fqn>
+        </params>
+      </action>
+    </set>
+  </restructuring>
+  <grid-set sep="." version="6.1.20378" />
+</local-project>
